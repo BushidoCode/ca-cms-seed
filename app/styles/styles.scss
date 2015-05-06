@@ -1,6 +1,9 @@
 @import "bootstrap";
 $main-grey:#34495E;
 $light-grey:#F2F1EF;
+$green:#87D37C;
+$blue_add:#59ABE3;
+
 body{
   font-family:OpenSansRegular !important;
 }
@@ -15,9 +18,7 @@ header{
     padding:2%;
     //height:10%;
   }
-  i{
-    padding-right:5px;
-  }
+
   nav#main{
     @extend .navbar;
     @extend .navbar-default;
@@ -37,6 +38,9 @@ header{
       }
       li.active{
         a{
+          i{
+            padding-right:5px;
+          }
           background:$light-grey !important;
           color:black !important;
         }
@@ -91,4 +95,30 @@ table{
 }
 .input-group{
   margin-bottom:0.5em;
+}
+
+/* Input Styles */
+.btn-create{
+  background: $green;
+  color:white;
+}
+.btn-create:hover{
+  background: #90C695;
+  font-weight:bold;
+  color:white;
+}
+/* Input Styles */
+.btn-add{
+  background: $blue_add;
+  color:white;
+}
+.btn-add:hover{
+  background: #52B3D9;
+  font-weight:bold;
+  color:white;
+}
+a{
+  i{
+    padding-right:5px;
+  }
 }
