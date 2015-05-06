@@ -181,7 +181,7 @@ angular.module("../app/partials/setup/index.html", []).run(["$templateCache", fu
     "  </div>\n" +
     "\n" +
     "  <div class=\"form-group\">\n" +
-    "    <label for=\"\">Link / Section   <a class='btn btn-primary' ng-click=\"addSection()\">Add Section</a> </label>\n" +
+    "    <label for=\"\">Link / Section   <a class='btn btn-add' ng-click=\"addSection()\">Add Section</a> </label>\n" +
     "    <div class=\"input-group\" ng-repeat=\"link in links\">\n" +
     "      <span class=\"input-group-addon\"><i class='fa fa-list'></i></span>\n" +
     "      <input name=\"link.name\" ng-model=\"data.section[$index]\" type=\"text\" class=\"form-control\" placeholder=\"e.g contact us\">\n" +

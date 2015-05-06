@@ -24,15 +24,16 @@ class Setup extends MY_Controller {
     try{
       if ($this->dbforge->create_database($post_data,TRUE)){
         $response = array('type'  =>  'success','msg' =>  'Database created!');
+        
       }
       else{
         $response = array('type'  =>  'danger','msg'  =>  'Database Not Created!');
       }
     }
     catch(Exception $e){
-      // var_dump($e->getMessage());die;
       $response=array('type'  =>  'danger','msg'  =>  $e->getMessage());
     }
     $this->response($response);
   }
+
 }
