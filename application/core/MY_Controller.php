@@ -1620,4 +1620,48 @@ abstract class MY_Controller extends MX_Controller
         return FALSE;
     }
 
+
+    /**
+  	* Set Configuration for Database
+  	* @return [type] [description]
+  	*/
+  	public function config($database){
+  		$data = '<?php
+      ';
+     $db_array= "array(
+     	'dsn'	=> '',
+     	'hostname' => 'localhost',
+      'username' => '".$this->db->username."',
+      'password' => '".$this->db->password."',
+     	'database' => '".$database."',
+     	'dbdriver' => 'mysqli',
+     	'dbprefix' => '',
+     	'pconnect' => FALSE,
+     	'db_debug' => TRUE,
+     	'cache_on' => FALSE,
+     	'cachedir' => '',
+     	'char_set' => 'utf8',
+     	'dbcollat' => 'utf8_general_ci',
+     	'swap_pre' => '',
+     	'encrypt' => FALSE,
+     	'compress' => FALSE,
+     	'stricton' => FALSE,
+     	'failover' => array(),
+     	'save_queries' => TRUE
+     )";
+
+     $data.=$db_array;
+
+  		if ( ! write_file(APPPATH.'config/database_config.php', $data))
+  		{
+  			// echo('Unable to write the file');
+  		}
+  		else
+  		{
+  			// echo('File written!');
+  		}
+  	}
+
+
+
 }

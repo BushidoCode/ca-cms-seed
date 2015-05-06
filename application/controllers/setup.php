@@ -1,16 +1,21 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+
+
 class Setup extends MY_Controller {
+
 
   function __construct(){
     parent::__construct();
     $this->load->dbforge();
+
   }
 
   public function index()
   {
     $this->load->view('index');
+
   }
 
   public function index_get(){
@@ -24,7 +29,7 @@ class Setup extends MY_Controller {
     try{
       if ($this->dbforge->create_database($post_data,TRUE)){
         $response = array('type'  =>  'success','msg' =>  'Database created!');
-        
+        $this->config($post_data);
       }
       else{
         $response = array('type'  =>  'danger','msg'  =>  'Database Not Created!');

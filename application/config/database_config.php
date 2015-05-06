@@ -2,9 +2,9 @@
       array(
      	'dsn'	=> '',
      	'hostname' => 'localhost',
-     	'username' => 'root',
-     	'password' => 'root',
-     	'database' => '1test112',
+      'username' => 'root',
+      'password' => 'root',
+     	'database' => 'seth2',
      	'dbdriver' => 'mysqli',
      	'dbprefix' => '',
      	'pconnect' => FALSE,
