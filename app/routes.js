@@ -1,13 +1,18 @@
 app.config(function($stateProvider, $urlRouterProvider) {
-	//
-	// For any unmatched url, redirect to /state1
-	$urlRouterProvider.otherwise("/");
+  //
+  // For any unmatched url, redirect to /state1
+  $urlRouterProvider.otherwise("/");
 
-	// Now set up the states
-	$stateProvider
-		.state('home', {
-			url: '/',
-			templateUrl: 'app/partials/home/index.html',
-			controller: 'indexCtrl'
-		});
+  // Now set up the states
+  $stateProvider
+    .state('home', {
+      url: '/',
+      templateUrl: 'app/partials/home/index.html',
+      controller: 'indexCtrl'
+    })
+    .state('setup', {
+      url: '/setup',
+      templateUrl: 'app/partials/setup/index.html',
+      controller: 'setupCtrl'
+    });
 });

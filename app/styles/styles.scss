@@ -15,12 +15,15 @@ header{
     padding:2%;
     //height:10%;
   }
+  i{
+    padding-right:5px;
+  }
   nav#main{
     @extend .navbar;
     @extend .navbar-default;
     background:$main-grey !important;
     height:auto !important;
-    padding:0.25% 15%;
+    padding:0.15% 15%;
     margin-bottom:0 !important;
     ul{
       @extend .nav;
@@ -85,4 +88,7 @@ table{
   @extend .table;
   @extend .table-responsive;
   @extend .table-hover;
+}
+.input-group{
+  margin-bottom:0.5em;
 }

@@ -2,6 +2,8 @@
   <head>
     <title></title>
     <link rel="stylesheet" href="bower_components/webfont-opensans/css/stylesheet.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="dist/styles.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>

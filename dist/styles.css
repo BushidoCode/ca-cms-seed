@@ -5851,10 +5851,12 @@ header {
     background: white;
     width: 100%;
     padding: 2%; }
+  header i {
+    padding-right: 5px; }
   header nav#main {
     background: #34495E !important;
     height: auto !important;
-    padding: 0.25% 15%;
+    padding: 0.15% 15%;
     margin-bottom: 0 !important; }
     header nav#main ul {
       margin-bottom: 0 !important; }
@@ -5886,5 +5888,7 @@ header {
   font-size: 30px; }
 
 /* Table */
+.input-group {
+  margin-bottom: 0.5em; }
 
 /*# sourceMappingURL=styles.css.map */
