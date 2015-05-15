@@ -17,6 +17,7 @@ For install instructions, read the [INSTALL.md](INSTALL.md)
 “textAngular”: “1.3.3”,
 “ngtoast”: “~1.4.0”,
 “angular-md5”: “~0.1.7” ```
+
 ### Angular Packages
 All packages have a link for further reading.
 #### angular-bootstrap 
