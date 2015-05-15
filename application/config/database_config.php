@@ -4,7 +4,7 @@
      	'hostname' => 'localhost',
       'username' => 'root',
       'password' => 'root',
-     	'database' => 'seth2',
+     	'database' => 'applebeez',
      	'dbdriver' => 'mysqli',
      	'dbprefix' => '',
      	'pconnect' => FALSE,
