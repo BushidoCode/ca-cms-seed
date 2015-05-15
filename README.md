@@ -17,25 +17,27 @@ For install instructions, read the [INSTALL.md](INSTALL.md)
 “textAngular”: “1.3.3”,
 “ngtoast”: “~1.4.0”,
 “angular-md5”: “~0.1.7” ```
+
+
 ### Angular Packages
 All packages have a link for further reading.
-#### angular-bootstrap 
+#### 1. angular-bootstrap 
 URL: [Link to Github Page](https://github.com/angular-ui/bootstrap)
-#### angular-chart.js
+#### 2. angular-chart.js
 URL: [Link to Github Page](https://github.com/jtblin/angular-chart.js)
-#### angular-moment
+#### 3. angular-moment
 URL: [Link to Github Page](https://github.com/urish/angular-moment)
-#### angular-smart-table
+#### 4. angular-smart-table
 URL: [Link to Github Page](https://github.com/lorenzofox3/Smart-Table)
-#### angular-ui-router
+#### 5. angular-ui-router
 URL: [Link to Github Page](https://github.com/angular-ui/ui-router)
-#### restangular
+#### 6. restangular
 URL: [Link to Github Page](https://github.com/mgonto/restangular)
-#### textAngular
+#### 7. textAngular
 URL: [Link to Github Page](https://github.com/fraywing/textAngular)
-#### ngtoast
+#### 8. ngtoast
 URL: [Link to Github Page](https://github.com/tameraydin/ngToast)
-#### angular-md5
+#### 9. angular-md5
 URL: [Link to Github Page](https://github.com/gdi2290/angular-md5)
 
 ## Back-end
