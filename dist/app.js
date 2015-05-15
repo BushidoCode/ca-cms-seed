@@ -176,17 +176,17 @@ angular.module("../app/partials/setup/index.html", []).run(["$templateCache", fu
     "      <span class=\"input-group-addon\"><i class='fa fa-database'></i></span>\n" +
     "      <input type=\"text\" class=\"form-control\" ng-model=\"data.database\" placeholder=\"e.g my_blog\">\n" +
     "    </div>\n" +
-    "    <a class='btn btn-primary' ng-click=\"createDatabase()\">Create Database</a>\n" +
+    "    <a class='btn btn-create' ng-click=\"createDatabase()\"><i class=\"fa fa-bolt\"></i>Create Database</a>\n" +
     "    <alert ng-repeat=\"alert in alerts.database track by $index\" type=\"{{alert.type}}\" close=\"closeAlert($index)\">{{alert.msg}} <p>{{$index}}</p></alert>\n" +
     "  </div>\n" +
     "\n" +
     "  <div class=\"form-group\">\n" +
-    "    <label for=\"\">Link / Section   <a class='btn btn-primary' ng-click=\"addSection()\">Add Section</a> </label>\n" +
+    "    <label for=\"\">Link / Section   <a class='btn btn-add' ng-click=\"addSection()\">Add Section</a> </label>\n" +
     "    <div class=\"input-group\" ng-repeat=\"link in links\">\n" +
     "      <span class=\"input-group-addon\"><i class='fa fa-list'></i></span>\n" +
     "      <input name=\"link.name\" ng-model=\"data.section[$index]\" type=\"text\" class=\"form-control\" placeholder=\"e.g contact us\">\n" +
     "    </div>\n" +
-    "    <a class='btn btn-primary' ng-click=\"createSection()\">Create Section</a>\n" +
+    "    <a class='btn btn-create' ng-click=\"createSection()\"><i class=\"fa fa-bolt\"></i>Create Section</a>\n" +
     "  </div>\n" +
     "</form>\n" +
     "");

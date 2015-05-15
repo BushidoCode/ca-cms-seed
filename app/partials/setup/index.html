@@ -5,16 +5,16 @@
       <span class="input-group-addon"><i class='fa fa-database'></i></span>
       <input type="text" class="form-control" ng-model="data.database" placeholder="e.g my_blog">
     </div>
-    <a class='btn btn-primary' ng-click="createDatabase()">Create Database</a>
+    <a class='btn btn-create' ng-click="createDatabase()"><i class="fa fa-bolt"></i>Create Database</a>
     <alert ng-repeat="alert in alerts.database track by $index" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}} <p>{{$index}}</p></alert>
   </div>
 
   <div class="form-group">
-    <label for="">Link / Section   <a class='btn btn-primary' ng-click="addSection()">Add Section</a> </label>
+    <label for="">Link / Section   <a class='btn btn-add' ng-click="addSection()">Add Section</a> </label>
     <div class="input-group" ng-repeat="link in links">
       <span class="input-group-addon"><i class='fa fa-list'></i></span>
       <input name="link.name" ng-model="data.section[$index]" type="text" class="form-control" placeholder="e.g contact us">
     </div>
-    <a class='btn btn-primary' ng-click="createSection()">Create Section</a>
+    <a class='btn btn-create' ng-click="createSection()"><i class="fa fa-bolt"></i>Create Section</a>
   </div>
 </form>
