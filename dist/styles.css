@@ -5851,8 +5851,6 @@ header {
     background: white;
     width: 100%;
     padding: 2%; }
-  header i {
-    padding-right: 5px; }
   header nav#main {
     background: #34495E !important;
     height: auto !important;
@@ -5865,6 +5863,8 @@ header {
       header nav#main ul li.active a {
         background: #F2F1EF !important;
         color: black !important; }
+        header nav#main ul li.active a i {
+          padding-right: 5px; }
       header nav#main ul li:hover {
         background: #F2F1EF !important;
         color: black !important; }
@@ -5890,5 +5890,28 @@ header {
 /* Table */
 .input-group {
   margin-bottom: 0.5em; }
+
+/* Input Styles */
+.btn-create {
+  background: #87D37C;
+  color: white; }
+
+.btn-create:hover {
+  background: #90C695;
+  font-weight: bold;
+  color: white; }
+
+/* Input Styles */
+.btn-add {
+  background: #59ABE3;
+  color: white; }
+
+.btn-add:hover {
+  background: #52B3D9;
+  font-weight: bold;
+  color: white; }
+
+a i {
+  padding-right: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
